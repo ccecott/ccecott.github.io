@@ -1,3 +1,10 @@
+@font-face {
+    src: url(fonts/D-DIN\ \(1\).otf);
+    font-family: d-din;
+    src: url(fonts/D-DINCondensed-Bold\ \(1\).otf);
+    font-family: d-din-con;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,57 +16,159 @@
 }
 
 .main {
-    background: lightblue;
+    /* background: lightblue; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 175px;
+    padding: 145px;
 }
 
 .lease-property {
+    background: white;
     width: 355px;
     height: 410px;
-    border: 1px solid black;
+    border-radius: 5px;
     margin: 10px;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
 }
 
 .main-info {
-    background: white;
-    border-bottom: 1px solid black;
-    height: 70px;
+    /* background: white; */
+    /* border-bottom: 1px solid black; */
+    height: 88px;
     display: flex;
-    padding: 10px;
+    padding: 17px;
 }
 
 .profile-image {
     background: lightgray;
-    width: 35px;
-    height: 35px;
+    width: 41px;
+    height: 43px;
     border-radius: 50%;
     align-self: center;
-    margin-right: 10px;
+    margin-right: 14px;
 }
 
 .price-size {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
+   
+}
+
+.price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.size {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 
 .image {
+    /* margin-top: 88px;
+    margin-bottom: 109px; */
     background: lightgray;
-    height: 175px;
+    height: 213px;
 }
 
 .address-div {
-    background: white;
-    border-top: 1px solid black;
-    height: 88px;
-    padding: 10px;
+    /* background: white; */
+    height: 109px;
+    width: 313px;
+    /* border-top: 1px solid black; */
+    padding-top: 8px;
+    padding-left: 17px;
+}
+
+.address {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 313px;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-align: left;
 }
 
 .details {
-    float: right;
-    margin-top: 5px;
+    border: none;
+    margin-left: 57px;
+    color: #31BDBA;
+    height: 49px;
+    line-height: 16;
+    overflow: visible;
+
+    background: transparent;
+
+    /* inherit font & color from ancestor */
+    /* color: inherit; */
+    font: inherit;
+    letter-spacing: 1.8px;
+
+
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    /* Corrects inability to style clickable `input` types in iOS */
+    -webkit-appearance: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.details:hover {
+    cursor: pointer;
+}
+
+.bed-bath {
+    position: relative;
+    display: flex;
+    margin-top: 51px;
+    width: 335px;
+    
+}
+
+.beds {
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.bed-num {
+    display: inline-block;
+    padding-left: 5px;
+    width: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+.baths {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.bath-num {
+    display: inline-block;
+    padding-left: 5px;
+    width: 34px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
 }
