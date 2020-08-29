@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: grey;
+}
+
+.main {
+    background: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 175px;
+}
+
+.lease-property {
+    width: 355px;
+    height: 410px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.main-info {
+    background: white;
+    border-bottom: 1px solid black;
+    height: 70px;
+    display: flex;
+    padding: 10px;
+}
+
+.profile-image {
+    background: lightgray;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    align-self: center;
+    margin-right: 10px;
+}
+
+.price-size {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.image {
+    background: lightgray;
+    height: 175px;
+}
+
+.address-div {
+    background: white;
+    border-top: 1px solid black;
+    height: 88px;
+    padding: 10px;
+}
+
+.details {
+    float: right;
+    margin-top: 5px;
+}
