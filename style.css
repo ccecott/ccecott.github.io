@@ -20,14 +20,11 @@
 }
 
 .main {
-    /* background: lightblue; */
-    /* max-width: 1465px; */
-    /* margin-left: 250px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 145px;
-    /* max-width: 1500px; */
+    padding: 120px;
+
 }
 
 .test {
