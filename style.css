@@ -49,6 +49,128 @@
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
 }
 
+/* looks a touch distorted */
+.one {
+    background: url(./assets/images/1525\ broadway.jpeg);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.two {
+    background: url(./assets/images/28Grand.jpg);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.three {
+    background: url(./assets/images/35\ w\ grand\ river.jpg);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.four {
+    background: url(./assets/images/book\ tower.jpeg);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.five {
+    background: url(./assets/images/brewster\ douglass.jpg);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.six {
+    background: url(./assets/images/CityModern.jpg);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.seven {
+    background: url(./assets/images/1456\ Woodward.jpg);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+.eight {
+    background: url(./assets/images/GratiotSite.jpg);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* needs to be edited */
+.nine {
+    background: url(./assets/images/Hudson\ site\ copy.jpg);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ten {
+    background: url(./assets/images/Malcomson\ building.jpg);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.eleven {
+    background: url(./assets/images/monroe\ blocks.jpg);
+    background-size: 355px 213px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* needs editing */
+.twelve {
+    background: url(./assets/images/the\ assembly.jpg);
+    background-size: 355px 213px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.thirteen {
+    background: url(./assets/images/the\ furgeson\ .jpg);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fourteen {
+    background: url(./assets/images/the\ may\ .jpeg);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fifteen {
+    background: url(./assets/images/the\ press.jpeg);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sixteen {
+    background: url(./assets/images/the\ stott.jpg);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    background-position: center;
+}  
+
+.seventeen {
+    background: url(./assets/images/the\ vinton\ .jpg);
+    background-size: 355px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .main-info {
     /* background: white; */
     /* border-bottom: 1px solid black; */
@@ -88,9 +210,9 @@
 
 
 .image {
-    /* margin-top: 88px;
-    margin-bottom: 109px; */
-    background: lightgray;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
     height: 213px;
 }
 
