@@ -21,10 +21,21 @@
 
 .main {
     /* background: lightblue; */
+    /* max-width: 1465px; */
+    /* margin-left: 250px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 145px;
+    /* max-width: 1500px; */
+}
+
+.test {
+    /* max-width: 1465px; */
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .lease-property {
